@@ -1,4 +1,3 @@
-=== S-2026-02-18-0340-initial-build ===
 # Session
 
 Session-ID: S-2026-02-18-0340-initial-build
@@ -74,4 +73,3 @@ PRs:
 
 ADRs:
 - (none yet — technology choices documented in design doc)
-
