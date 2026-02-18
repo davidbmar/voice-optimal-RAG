@@ -1,0 +1,2 @@
+This is a sample text file for testing the parser.
+It has multiple lines and some content to extract.
