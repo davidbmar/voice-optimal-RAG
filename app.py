@@ -58,7 +58,8 @@ async def upload_files(files: list[UploadFile] = File(...)):
 
         # Save uploaded file to temp location
         os.makedirs(config.UPLOAD_PATH, exist_ok=True)
-        temp_path = os.path.join(config.UPLOAD_PATH, f"_temp_{file.filename}")
+        safe_temp_name = file.filename.replace("/", "__").replace("\\", "__")
+        temp_path = os.path.join(config.UPLOAD_PATH, f"_temp_{safe_temp_name}")
         try:
             content = await file.read()
 

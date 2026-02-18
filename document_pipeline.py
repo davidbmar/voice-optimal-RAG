@@ -28,10 +28,11 @@ def ingest_file(filepath: str, original_filename: str) -> dict:
     doc_id = generate_doc_id()
     now = datetime.now(timezone.utc).isoformat()
 
-    # Save original file
+    # Save original file (flatten slashes in filename for safe storage)
     save_dir = os.path.join(config.UPLOAD_PATH, doc_id)
     os.makedirs(save_dir, exist_ok=True)
-    saved_path = os.path.join(save_dir, original_filename)
+    safe_filename = os.path.basename(original_filename)
+    saved_path = os.path.join(save_dir, safe_filename)
     shutil.copy2(filepath, saved_path)
     file_size = os.path.getsize(saved_path)
 
