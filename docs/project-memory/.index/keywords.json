@@ -1,0 +1,152 @@
+{
+  "2026-02-17-rag-service-design": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "adaptations": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "add": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "adrs": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "api": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "app": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "approved": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "assistant": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "backlog": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "batch": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "build": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "changes": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "chunker": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "claude": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "compatibility": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "complete": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "config": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "context": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "core": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "create": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "created": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "decision": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "decisions": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "dependency": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "design": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "doc": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "docker": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "docker-compose": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "dockerfile": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "docs": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "document": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "drag-and-drop": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "embedder": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "embedding": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "end-to-end": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "fastapi": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "feb": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "git": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "goal": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "hooks": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "implement": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "ingestion": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "initialized": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "instead": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "integrated": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "interface": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "lancedb": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "latest": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "made": [
+    "S-2026-02-18-0340-initial-build"
+  ],
+  "memory": [
+    "S-2026-02-18-0340-initial-build"
+  ]
+}

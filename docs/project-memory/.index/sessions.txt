@@ -1,0 +1,54 @@
+=== S-2026-02-18-0340-initial-build ===
+# Session
+
+Session-ID: S-2026-02-18-0340-initial-build
+Title: Initial RAG service build — project scaffolding and full implementation
+Date: 2026-02-18
+Author: Claude + David
+
+## Goal
+
+Build the complete RAG service from the design doc: FastAPI server with document ingestion, vector search, drag-and-drop UI, and Docker packaging.
+
+## Context
+
+New standalone project for voice assistant RAG retrieval. Design doc approved at `docs/plans/2026-02-17-rag-service-design.md`. Traceable project memory system integrated from template repo.
+
+## Plan
+
+1. Set up project scaffolding (config, models, CLAUDE.md, project memory)
+2. Implement core modules: embedder, vector store, parsers, chunker
+3. Wire up document pipeline
+4. Build FastAPI app with all routes
+5. Create drag-and-drop web UI
+6. Add Dockerfile and docker-compose.yml
+7. Test end-to-end
+
+## Changes Made
+
+- Initialized git repo
+- Set up project memory system (sessions, ADRs, backlog, scripts, hooks)
+- Created design doc at `docs/plans/2026-02-17-rag-service-design.md`
+- Created CLAUDE.md with project overview + memory system rules
+
+## Decisions Made
+
+- Use latest dependency versions (Feb 2026) instead of spec's mid-2024 versions, pinned for reproducibility
+- Integrated traceable-searchable-adr-memory-index system for session/decision tracking
+
+## Open Questions
+
+- LanceDB 0.29.2 API compatibility — may need minor adaptations from spec
+- sentence-transformers 5.2.3 API — verify batch embedding interface
+
+## Links
+
+Commits:
+- (pending — initial commit not yet created)
+
+PRs:
+- (none yet)
+
+ADRs:
+- (pending — technology choices ADR to be created)
+
