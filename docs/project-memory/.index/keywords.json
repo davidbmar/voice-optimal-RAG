@@ -21,10 +21,12 @@
     "S-2026-02-18-0340-initial-build"
   ],
   "add": [
-    "S-2026-02-18-0340-initial-build"
+    "S-2026-02-18-0340-initial-build",
+    "S-2026-02-18-0549-rag-tool-integration"
   ],
   "adding": [
-    "S-2026-02-18-0340-initial-build"
+    "S-2026-02-18-0340-initial-build",
+    "S-2026-02-18-0549-rag-tool-integration"
   ],
   "all-minilm-l6-v2": [
     "S-2026-02-18-0340-initial-build"
@@ -36,7 +38,8 @@
     "S-2026-02-18-0340-initial-build"
   ],
   "assistant": [
-    "S-2026-02-18-0340-initial-build"
+    "S-2026-02-18-0340-initial-build",
+    "S-2026-02-18-0549-rag-tool-integration"
   ],
   "avoids": [
     "S-2026-02-18-0340-initial-build"
@@ -54,7 +57,8 @@
     "S-2026-02-18-0340-initial-build"
   ],
   "changes": [
-    "S-2026-02-18-0340-initial-build"
+    "S-2026-02-18-0340-initial-build",
+    "S-2026-02-18-0549-rag-tool-integration"
   ],
   "character": [
     "S-2026-02-18-0340-initial-build"
@@ -72,10 +76,12 @@
     "S-2026-02-18-0340-initial-build"
   ],
   "config": [
-    "S-2026-02-18-0340-initial-build"
+    "S-2026-02-18-0340-initial-build",
+    "S-2026-02-18-0549-rag-tool-integration"
   ],
   "context": [
-    "S-2026-02-18-0340-initial-build"
+    "S-2026-02-18-0340-initial-build",
+    "S-2026-02-18-0549-rag-tool-integration"
   ],
   "core": [
     "S-2026-02-18-0340-initial-build"
@@ -87,10 +93,12 @@
     "S-2026-02-18-0340-initial-build"
   ],
   "create": [
-    "S-2026-02-18-0340-initial-build"
+    "S-2026-02-18-0340-initial-build",
+    "S-2026-02-18-0549-rag-tool-integration"
   ],
   "created": [
-    "S-2026-02-18-0340-initial-build"
+    "S-2026-02-18-0340-initial-build",
+    "S-2026-02-18-0549-rag-tool-integration"
   ],
   "createelement": [
     "S-2026-02-18-0340-initial-build"
@@ -102,7 +110,8 @@
     "S-2026-02-18-0340-initial-build"
   ],
   "decisions": [
-    "S-2026-02-18-0340-initial-build"
+    "S-2026-02-18-0340-initial-build",
+    "S-2026-02-18-0549-rag-tool-integration"
   ],
   "defaults": [
     "S-2026-02-18-0340-initial-build"
@@ -111,7 +120,8 @@
     "S-2026-02-18-0340-initial-build"
   ],
   "dependencies": [
-    "S-2026-02-18-0340-initial-build"
+    "S-2026-02-18-0340-initial-build",
+    "S-2026-02-18-0549-rag-tool-integration"
   ],
   "dependency": [
     "S-2026-02-18-0340-initial-build"
@@ -144,9 +154,125 @@
     "S-2026-02-18-0340-initial-build"
   ],
   "docs": [
-    "S-2026-02-18-0340-initial-build"
+    "S-2026-02-18-0340-initial-build",
+    "S-2026-02-18-0549-rag-tool-integration"
   ],
   "document": [
-    "S-2026-02-18-0340-initial-build"
+    "S-2026-02-18-0340-initial-build",
+    "S-2026-02-18-0549-rag-tool-integration"
+  ],
+  "2-second": [
+    "S-2026-02-18-0549-rag-tool-integration"
+  ],
+  "about": [
+    "S-2026-02-18-0549-rag-tool-integration"
+  ],
+  "added": [
+    "S-2026-02-18-0549-rag-tool-integration"
+  ],
+  "already": [
+    "S-2026-02-18-0549-rag-tool-integration"
+  ],
+  "answer": [
+    "S-2026-02-18-0549-rag-tool-integration"
+  ],
+  "balances": [
+    "S-2026-02-18-0549-rag-tool-integration"
+  ],
+  "base": [
+    "S-2026-02-18-0549-rag-tool-integration"
+  ],
+  "basetool": [
+    "S-2026-02-18-0549-rag-tool-integration"
+  ],
+  "block": [
+    "S-2026-02-18-0549-rag-tool-integration"
+  ],
+  "both": [
+    "S-2026-02-18-0549-rag-tool-integration"
+  ],
+  "call": [
+    "S-2026-02-18-0549-rag-tool-integration"
+  ],
+  "chosen": [
+    "S-2026-02-18-0549-rag-tool-integration"
+  ],
+  "class": [
+    "S-2026-02-18-0549-rag-tool-integration"
+  ],
+  "clear": [
+    "S-2026-02-18-0549-rag-tool-integration"
+  ],
+  "configurable": [
+    "S-2026-02-18-0549-rag-tool-integration"
+  ],
+  "connect": [
+    "S-2026-02-18-0549-rag-tool-integration"
+  ],
+  "davidbmar": [
+    "S-2026-02-18-0549-rag-tool-integration"
+  ],
+  "default": [
+    "S-2026-02-18-0549-rag-tool-integration"
+  ],
+  "distinguish": [
+    "S-2026-02-18-0549-rag-tool-integration"
+  ],
+  "documents": [
+    "S-2026-02-18-0549-rag-tool-integration"
+  ],
+  "don": [
+    "S-2026-02-18-0549-rag-tool-integration"
+  ],
+  "down": [
+    "S-2026-02-18-0549-rag-tool-integration"
+  ],
+  "endpoint": [
+    "S-2026-02-18-0549-rag-tool-integration"
+  ],
+  "enough": [
+    "S-2026-02-18-0549-rag-tool-integration"
+  ],
+  "env": [
+    "S-2026-02-18-0549-rag-tool-integration"
+  ],
+  "explicit": [
+    "S-2026-02-18-0549-rag-tool-integration"
+  ],
+  "failure": [
+    "S-2026-02-18-0549-rag-tool-integration"
+  ],
+  "fast": [
+    "S-2026-02-18-0549-rag-tool-integration"
+  ],
+  "field": [
+    "S-2026-02-18-0549-rag-tool-integration"
+  ],
+  "follow": [
+    "S-2026-02-18-0549-rag-tool-integration"
+  ],
+  "following": [
+    "S-2026-02-18-0549-rag-tool-integration"
+  ],
+  "formats": [
+    "S-2026-02-18-0549-rag-tool-integration"
+  ],
+  "framework": [
+    "S-2026-02-18-0549-rag-tool-integration"
+  ],
+  "github": [
+    "S-2026-02-18-0549-rag-tool-integration"
+  ],
+  "goal": [
+    "S-2026-02-18-0549-rag-tool-integration"
+  ],
+  "graceful": [
+    "S-2026-02-18-0549-rag-tool-integration"
+  ],
+  "http": [
+    "S-2026-02-18-0549-rag-tool-integration"
+  ],
+  "httpx": [
+    "S-2026-02-18-0549-rag-tool-integration"
   ]
 }
