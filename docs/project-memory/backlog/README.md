@@ -14,4 +14,4 @@ Bug IDs use a `B-` prefix; feature IDs use an `F-` prefix. Each item has its own
 
 | ID | Title | Priority | Status |
 |----|-------|----------|--------|
-| — | (none yet) | — | — |
+| F-001 | [Multi-Instance RAG for Different Domains](F-001-multi-instance-rag.md) | Low | Idea |

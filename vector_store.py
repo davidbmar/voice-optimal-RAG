@@ -1,3 +1,4 @@
+import logging
 import os
 from datetime import datetime, timezone
 
@@ -5,34 +6,62 @@ import lancedb
 import pyarrow as pa
 
 import config
+import embedder
+
+logger = logging.getLogger(__name__)
 
 _db = None
 _table = None
 
 TABLE_NAME = "chunks"
 
-SCHEMA = pa.schema([
-    pa.field("id", pa.string()),
-    pa.field("document_id", pa.string()),
-    pa.field("filename", pa.string()),
-    pa.field("chunk_index", pa.int32()),
-    pa.field("text", pa.string()),
-    pa.field("vector", pa.list_(pa.float32(), 384)),
-    pa.field("page_number", pa.int32()),
-    pa.field("indexed_at", pa.string()),
-])
+
+def _build_schema(dim: int) -> pa.Schema:
+    """Build the table schema with the given vector dimension."""
+    return pa.schema([
+        pa.field("id", pa.string()),
+        pa.field("document_id", pa.string()),
+        pa.field("filename", pa.string()),
+        pa.field("chunk_index", pa.int32()),
+        pa.field("text", pa.string()),
+        pa.field("vector", pa.list_(pa.float32(), dim)),
+        pa.field("page_number", pa.int32()),
+        pa.field("indexed_at", pa.string()),
+    ])
 
 
 def init_store():
-    """Initialize LanceDB connection and ensure table exists."""
+    """Initialize LanceDB connection and ensure table exists.
+
+    Detects vector dimension mismatches (e.g. model upgrade from 384-dim to
+    768-dim) and recreates the table automatically. The nightly cron will
+    re-index all documents.
+    """
     global _db, _table
     os.makedirs(config.LANCEDB_PATH, exist_ok=True)
     _db = lancedb.connect(config.LANCEDB_PATH)
 
+    dim = embedder.get_embedding_dimension()
+    schema = _build_schema(dim)
+
     if TABLE_NAME in _db.table_names():
-        _table = _db.open_table(TABLE_NAME)
+        existing = _db.open_table(TABLE_NAME)
+        existing_schema = existing.to_arrow().schema
+        vec_field = existing_schema.field("vector")
+        existing_dim = vec_field.type.list_size
+        if existing_dim != dim:
+            logger.warning(
+                "Vector dimension mismatch: table has %d, model produces %d. "
+                "Dropping table for re-creation.",
+                existing_dim,
+                dim,
+            )
+            _db.drop_table(TABLE_NAME)
+            _table = _db.create_table(TABLE_NAME, schema=schema)
+        else:
+            _table = existing
     else:
-        _table = _db.create_table(TABLE_NAME, schema=SCHEMA)
+        _table = _db.create_table(TABLE_NAME, schema=schema)
 
 
 def _get_table():

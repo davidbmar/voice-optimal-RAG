@@ -7,7 +7,7 @@ Built to feed context into a [voice assistant](https://github.com/davidbmar/ipho
 ## How It Works
 
 ```
-Upload file  →  Parse text  →  Split into chunks  →  Embed (384-dim vectors)  →  Store in LanceDB
+Upload file  →  Parse text  →  Split into chunks  →  Embed (768-dim vectors)  →  Store in LanceDB
                                                                                        │
 Query "which projects use WebRTC?"  →  Embed query  →  Vector similarity search  ──────┘
                                                               │
@@ -93,7 +93,7 @@ Remove a document and all its chunks.
   "status": "healthy",
   "documents": 690,
   "total_chunks": 2988,
-  "embedding_model": "all-MiniLM-L6-v2",
+  "embedding_model": "nomic-ai/nomic-embed-text-v1.5",
   "uptime_seconds": 134.6
 }
 ```
@@ -122,7 +122,7 @@ Requires: `gh` CLI authenticated (`gh auth login`).
 ├── document_pipeline.py    # Orchestrator: parse → chunk → embed → store
 ├── parsers.py              # File parsers (PDF, MD, TXT, DOCX, HTML)
 ├── chunker.py              # Recursive text splitter (tiktoken token counting)
-├── embedder.py             # sentence-transformers wrapper (all-MiniLM-L6-v2)
+├── embedder.py             # sentence-transformers wrapper (nomic-embed-text-v1.5)
 ├── vector_store.py         # LanceDB operations (insert, search, delete, stats)
 ├── models.py               # Pydantic request/response schemas
 ├── config.py               # Environment variables with defaults
@@ -147,7 +147,7 @@ All settings via environment variables (see `config.py`):
 | Variable | Default | Description |
 |----------|---------|-------------|
 | `PORT` | `8100` | Server port |
-| `EMBEDDING_MODEL` | `all-MiniLM-L6-v2` | Sentence-transformers model |
+| `EMBEDDING_MODEL` | `nomic-ai/nomic-embed-text-v1.5` | Sentence-transformers model |
 | `LANCEDB_PATH` | `./data/lancedb` | Vector database directory |
 | `UPLOAD_PATH` | `./data/uploads` | Uploaded file storage |
 | `CHUNK_SIZE` | `500` | Target tokens per chunk |
@@ -160,7 +160,7 @@ All settings via environment variables (see `config.py`):
 
 | Decision | Choice | Why |
 |----------|--------|-----|
-| Embedding model | all-MiniLM-L6-v2 | 384-dim, fast, good quality, runs on CPU |
+| Embedding model | nomic-embed-text-v1.5 | 768-dim, task prefixes for asymmetric search, strong on code/technical content |
 | Vector DB | LanceDB | Embedded (no server process), stores in a directory, zero ops |
 | Text splitting | Recursive character splitter | Preserves paragraph/sentence boundaries, tiktoken token counting |
 | PDF parsing | PyMuPDF | Fast, page-level metadata, no Java dependency |

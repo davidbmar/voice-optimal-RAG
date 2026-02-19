@@ -12,7 +12,8 @@
     "S-2026-02-18-0340-initial-build"
   ],
   "384-dim": [
-    "S-2026-02-18-0340-initial-build"
+    "S-2026-02-18-0340-initial-build",
+    "S-2026-02-18-0639-upgrade-embedding-model"
   ],
   "57ms": [
     "S-2026-02-18-0340-initial-build"
@@ -22,14 +23,16 @@
   ],
   "add": [
     "S-2026-02-18-0340-initial-build",
-    "S-2026-02-18-0549-rag-tool-integration"
+    "S-2026-02-18-0549-rag-tool-integration",
+    "S-2026-02-18-0639-upgrade-embedding-model"
   ],
   "adding": [
     "S-2026-02-18-0340-initial-build",
     "S-2026-02-18-0549-rag-tool-integration"
   ],
   "all-minilm-l6-v2": [
-    "S-2026-02-18-0340-initial-build"
+    "S-2026-02-18-0340-initial-build",
+    "S-2026-02-18-0639-upgrade-embedding-model"
   ],
   "app": [
     "S-2026-02-18-0340-initial-build"
@@ -45,20 +48,23 @@
     "S-2026-02-18-0340-initial-build"
   ],
   "batch": [
-    "S-2026-02-18-0340-initial-build"
+    "S-2026-02-18-0340-initial-build",
+    "S-2026-02-18-0639-upgrade-embedding-model"
   ],
   "beautifulsoup": [
     "S-2026-02-18-0340-initial-build"
   ],
   "build": [
-    "S-2026-02-18-0340-initial-build"
+    "S-2026-02-18-0340-initial-build",
+    "S-2026-02-18-0639-upgrade-embedding-model"
   ],
   "calculation": [
     "S-2026-02-18-0340-initial-build"
   ],
   "changes": [
     "S-2026-02-18-0340-initial-build",
-    "S-2026-02-18-0549-rag-tool-integration"
+    "S-2026-02-18-0549-rag-tool-integration",
+    "S-2026-02-18-0639-upgrade-embedding-model"
   ],
   "character": [
     "S-2026-02-18-0340-initial-build"
@@ -77,11 +83,13 @@
   ],
   "config": [
     "S-2026-02-18-0340-initial-build",
-    "S-2026-02-18-0549-rag-tool-integration"
+    "S-2026-02-18-0549-rag-tool-integration",
+    "S-2026-02-18-0639-upgrade-embedding-model"
   ],
   "context": [
     "S-2026-02-18-0340-initial-build",
-    "S-2026-02-18-0549-rag-tool-integration"
+    "S-2026-02-18-0549-rag-tool-integration",
+    "S-2026-02-18-0639-upgrade-embedding-model"
   ],
   "core": [
     "S-2026-02-18-0340-initial-build"
@@ -94,7 +102,8 @@
   ],
   "create": [
     "S-2026-02-18-0340-initial-build",
-    "S-2026-02-18-0549-rag-tool-integration"
+    "S-2026-02-18-0549-rag-tool-integration",
+    "S-2026-02-18-0639-upgrade-embedding-model"
   ],
   "created": [
     "S-2026-02-18-0340-initial-build",
@@ -111,7 +120,8 @@
   ],
   "decisions": [
     "S-2026-02-18-0340-initial-build",
-    "S-2026-02-18-0549-rag-tool-integration"
+    "S-2026-02-18-0549-rag-tool-integration",
+    "S-2026-02-18-0639-upgrade-embedding-model"
   ],
   "defaults": [
     "S-2026-02-18-0340-initial-build"
@@ -142,16 +152,19 @@
     "S-2026-02-18-0340-initial-build"
   ],
   "doc": [
-    "S-2026-02-18-0340-initial-build"
+    "S-2026-02-18-0340-initial-build",
+    "S-2026-02-18-0639-upgrade-embedding-model"
   ],
   "docker": [
     "S-2026-02-18-0340-initial-build"
   ],
   "docker-compose": [
-    "S-2026-02-18-0340-initial-build"
+    "S-2026-02-18-0340-initial-build",
+    "S-2026-02-18-0639-upgrade-embedding-model"
   ],
   "dockerfile": [
-    "S-2026-02-18-0340-initial-build"
+    "S-2026-02-18-0340-initial-build",
+    "S-2026-02-18-0639-upgrade-embedding-model"
   ],
   "docs": [
     "S-2026-02-18-0340-initial-build",
@@ -168,10 +181,12 @@
     "S-2026-02-18-0549-rag-tool-integration"
   ],
   "added": [
-    "S-2026-02-18-0549-rag-tool-integration"
+    "S-2026-02-18-0549-rag-tool-integration",
+    "S-2026-02-18-0639-upgrade-embedding-model"
   ],
   "already": [
-    "S-2026-02-18-0549-rag-tool-integration"
+    "S-2026-02-18-0549-rag-tool-integration",
+    "S-2026-02-18-0639-upgrade-embedding-model"
   ],
   "answer": [
     "S-2026-02-18-0549-rag-tool-integration"
@@ -213,7 +228,8 @@
     "S-2026-02-18-0549-rag-tool-integration"
   ],
   "default": [
-    "S-2026-02-18-0549-rag-tool-integration"
+    "S-2026-02-18-0549-rag-tool-integration",
+    "S-2026-02-18-0639-upgrade-embedding-model"
   ],
   "distinguish": [
     "S-2026-02-18-0549-rag-tool-integration"
@@ -222,7 +238,8 @@
     "S-2026-02-18-0549-rag-tool-integration"
   ],
   "don": [
-    "S-2026-02-18-0549-rag-tool-integration"
+    "S-2026-02-18-0549-rag-tool-integration",
+    "S-2026-02-18-0639-upgrade-embedding-model"
   ],
   "down": [
     "S-2026-02-18-0549-rag-tool-integration"
@@ -234,7 +251,8 @@
     "S-2026-02-18-0549-rag-tool-integration"
   ],
   "env": [
-    "S-2026-02-18-0549-rag-tool-integration"
+    "S-2026-02-18-0549-rag-tool-integration",
+    "S-2026-02-18-0639-upgrade-embedding-model"
   ],
   "explicit": [
     "S-2026-02-18-0549-rag-tool-integration"
@@ -264,7 +282,8 @@
     "S-2026-02-18-0549-rag-tool-integration"
   ],
   "goal": [
-    "S-2026-02-18-0549-rag-tool-integration"
+    "S-2026-02-18-0549-rag-tool-integration",
+    "S-2026-02-18-0639-upgrade-embedding-model"
   ],
   "graceful": [
     "S-2026-02-18-0549-rag-tool-integration"
@@ -274,5 +293,98 @@
   ],
   "httpx": [
     "S-2026-02-18-0549-rag-tool-integration"
+  ],
+  "43-0": [
+    "S-2026-02-18-0639-upgrade-embedding-model"
+  ],
+  "768-dim": [
+    "S-2026-02-18-0639-upgrade-embedding-model"
+  ],
+  "auto-migration": [
+    "S-2026-02-18-0639-upgrade-embedding-model"
+  ],
+  "because": [
+    "S-2026-02-18-0639-upgrade-embedding-model"
+  ],
+  "bumps": [
+    "S-2026-02-18-0639-upgrade-embedding-model"
+  ],
+  "clean": [
+    "S-2026-02-18-0639-upgrade-embedding-model"
+  ],
+  "code": [
+    "S-2026-02-18-0639-upgrade-embedding-model"
+  ],
+  "constructor": [
+    "S-2026-02-18-0639-upgrade-embedding-model"
+  ],
+  "content": [
+    "S-2026-02-18-0639-upgrade-embedding-model"
+  ],
+  "cron": [
+    "S-2026-02-18-0639-upgrade-embedding-model"
+  ],
+  "current": [
+    "S-2026-02-18-0639-upgrade-embedding-model"
+  ],
+  "custom": [
+    "S-2026-02-18-0639-upgrade-embedding-model"
+  ],
+  "dep": [
+    "S-2026-02-18-0639-upgrade-embedding-model"
+  ],
+  "detect": [
+    "S-2026-02-18-0639-upgrade-embedding-model"
+  ],
+  "detection": [
+    "S-2026-02-18-0639-upgrade-embedding-model"
+  ],
+  "dict": [
+    "S-2026-02-18-0639-upgrade-embedding-model"
+  ],
+  "dim": [
+    "S-2026-02-18-0639-upgrade-embedding-model"
+  ],
+  "dimension": [
+    "S-2026-02-18-0639-upgrade-embedding-model"
+  ],
+  "download": [
+    "S-2026-02-18-0639-upgrade-embedding-model"
+  ],
+  "drop": [
+    "S-2026-02-18-0639-upgrade-embedding-model"
+  ],
+  "drops": [
+    "S-2026-02-18-0639-upgrade-embedding-model"
+  ],
+  "dynamic": [
+    "S-2026-02-18-0639-upgrade-embedding-model"
+  ],
+  "einops": [
+    "S-2026-02-18-0639-upgrade-embedding-model"
+  ],
+  "embed": [
+    "S-2026-02-18-0639-upgrade-embedding-model"
+  ],
+  "embedder": [
+    "S-2026-02-18-0639-upgrade-embedding-model"
+  ],
+  "embedding": [
+    "S-2026-02-18-0639-upgrade-embedding-model"
+  ],
+  "especially": [
+    "S-2026-02-18-0639-upgrade-embedding-model"
+  ],
+  "exact": [
+    "S-2026-02-18-0639-upgrade-embedding-model"
+  ],
+  "existing": [
+    "S-2026-02-18-0639-upgrade-embedding-model"
+  ],
+  "full": [
+    "S-2026-02-18-0639-upgrade-embedding-model"
+  ],
+  "get": [
+    "S-2026-02-18-0639-upgrade-embedding-model"
   ]
 }

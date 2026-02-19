@@ -128,6 +128,12 @@ async def query(req: QueryRequest):
     results = vector_store.search(query_vector, top_k=req.top_k)
 
     elapsed_ms = (time.time() - start) * 1000
+    top_score = results[0]["score"] if results else 0.0
+
+    logger.info(
+        "QUERY | q=%r | top_score=%.4f | results=%d | ms=%.1f",
+        req.query, top_score, len(results), elapsed_ms,
+    )
 
     return QueryResponse(
         query=req.query,

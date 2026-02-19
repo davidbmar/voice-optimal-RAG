@@ -6,7 +6,7 @@ services:
     volumes:
       - rag-data:/data
     environment:
-      - EMBEDDING_MODEL=all-MiniLM-L6-v2
+      - EMBEDDING_MODEL=nomic-ai/nomic-embed-text-v1.5
 
 volumes:
   rag-data:
