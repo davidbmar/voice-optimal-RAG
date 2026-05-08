@@ -2,7 +2,7 @@
 # Original design spec referenced future versions; these are the actual latest.
 fastapi==0.128.8
 uvicorn[standard]==0.39.0
-python-multipart==0.0.20
+python-multipart==0.0.27
 sentence-transformers==5.1.2
 einops>=0.8.0
 lancedb==0.27.1
